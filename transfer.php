@@ -17,7 +17,7 @@ if(isset($_POST['update']))
   $dbalance = $_POST['dbalance'];
   $id1 = $_POST['id1'];
 
-      if($balance>=$dbalance)
+      if($balance>=$dbalance && $dbalance > 0)
       {
 
         
@@ -106,7 +106,6 @@ if(isset($_POST['update']))
 
 <html>
 <head>
-  <title>Change Password | XYZ Corporation</title>
     <!-- Font special for pages-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
