@@ -82,7 +82,7 @@ if(isset($_POST['update']))
 
       else{
               echo ("<SCRIPT LANGUAGE='JavaScript'>
-                    window.alert('Insufficient Amount')
+                    window.alert('Insufficient/Incorrect Amount ')
                     window.location.href='javascript:history.go(-1)';
                     </SCRIPT>");
       }
